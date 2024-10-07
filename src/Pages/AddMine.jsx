@@ -32,7 +32,7 @@ const AddMine = ({ submit }) => {
           <input
             type="text"
             name="title"
-            placeholder="title"
+            placeholder="Body"
             className="px-6 py-2 border w-[450px]"
             onChange={(e) => setNewbody(e.target.value)}
           />
@@ -42,7 +42,7 @@ const AddMine = ({ submit }) => {
           <input
             type="text"
             name="title"
-            placeholder="title"
+            placeholder="Location"
             className="px-6 py-2 border w-[450px]"
             onChange={(e) => setLocation(e.target.value)}
           />
