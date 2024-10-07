@@ -1,0 +1,28 @@
+.Header{
+    background-image:url("/marble-quarry-7703099_960_720.jpg");
+    background-size:cover;
+    text-align:center;
+    height:34vw;
+    margin:30px auto;
+    text-align:center;
+    color:black;
+    position:relative;
+    margin-top:0;
+    max-width:full;
+}
+
+#img{
+    overflow:hidden;
+
+}
+
+#product-image{
+    height:300px;
+    width:300px;
+}
+
+#filter-img{
+    height:150px;
+    width:150px;
+    object-fit:cover;
+}
