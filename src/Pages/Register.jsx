@@ -25,7 +25,7 @@ const Register = () => {
         <h1 className = "text-black text-4xl font-extrabold mb-11">Ri Reborn</h1>
         <div>
             <label className = "block mt-10 mb-4">Name</label>
-            <input type = "text" name = "name" placeholder = "enter email"
+            <input type = "text" name = "name" placeholder = "Enter UserName"
             value = {credentials.name}
             onChange = {handleinput}
             className = "border p-3 w-[300px] rounded-sm"
@@ -49,7 +49,7 @@ const Register = () => {
         </div>
         <div>
             <label className = "block mt-6 mb-4">Password2</label>
-            <input type = "password" name = "password2" placeholder = "enter password"
+            <input type = "password" name = "password2" placeholder = "Confirm Password"
              value = {credentials.password2}
              onChange = {handleinput}
              className = "border p-3 w-[300px] rounded-sm"
